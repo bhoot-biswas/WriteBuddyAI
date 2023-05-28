@@ -1,0 +1,183 @@
+# Copyright (C) 2023 Bengal Studio
+# This file is distributed under the same license as the WriteBuddy AI – ChatGPT-Powered Writing Assistant for WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WriteBuddy AI – ChatGPT-Powered Writing Assistant for "
+"WordPress 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/writebuddy\n"
+"POT-Creation-Date: 2023-05-07 20:04:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/class-ajax.php:53
+msgid "Required parameters are missing."
+msgstr ""
+
+#: includes/class-ajax.php:58
+msgid "Nonce verification failed. Please refresh the page and try again."
+msgstr ""
+
+#: includes/class-openai.php:44
+msgid "Something went wrong, please try again later!"
+msgstr ""
+
+#: includes/class-settings.php:18 includes/class-settings.php:19
+#: includes/class-writebuddy.php:63
+msgid "WriteBuddy AI"
+msgstr ""
+
+#: includes/class-writebuddy.php:64
+msgid "Your AI Writing Assistant: Chat Now!"
+msgstr ""
+
+#: includes/class-writebuddy.php:65
+msgid "Write a reply..."
+msgstr ""
+
+#: includes/class-writebuddy.php:66
+msgid "Scroll to bottom"
+msgstr ""
+
+#: includes/functions.php:14
+msgid "OpenAI Settings"
+msgstr ""
+
+#: includes/functions.php:18
+msgid "API Key"
+msgstr ""
+
+#: includes/functions.php:19
+msgid "Enter your ChatGPT API key."
+msgstr ""
+
+#: includes/functions.php:26
+msgid "Default Model"
+msgstr ""
+
+#: includes/functions.php:27
+msgid "Select the default model to use for ChatGPT."
+msgstr ""
+
+#: includes/functions.php:35
+msgid "Temperature"
+msgstr ""
+
+#: includes/functions.php:36
+msgid ""
+"What sampling temperature to use, between 0 and 2. Higher values like 0.8 "
+"will make the output more random, while lower values like 0.2 will make it "
+"more focused and deterministic."
+msgstr ""
+
+#: includes/functions.php:43
+msgid "Max Tokens"
+msgstr ""
+
+#: includes/functions.php:44
+msgid "The maximum number of tokens to generate in the chat completion."
+msgstr ""
+
+#: includes/functions.php:51
+msgid "Frequency Penalty"
+msgstr ""
+
+#: includes/functions.php:52
+msgid ""
+"Number between -2.0 and 2.0. Positive values penalize new tokens based on "
+"whether they appear in the text so far, increasing the model's likelihood "
+"to talk about new topics."
+msgstr ""
+
+#: includes/functions.php:59
+msgid "Presence Penalty"
+msgstr ""
+
+#: includes/functions.php:60
+msgid ""
+"Number between -2.0 and 2.0. Positive values penalize new tokens based on "
+"their existing frequency in the text so far, decreasing the model's "
+"likelihood to repeat the same line verbatim."
+msgstr ""
+
+#: includes/functions.php:69
+msgid "Conversation Settings"
+msgstr ""
+
+#: includes/functions.php:73
+msgid "Max History"
+msgstr ""
+
+#: includes/functions.php:74
+msgid "Enter the maximum number of previous messages to use for ChatGPT input."
+msgstr ""
+
+#: includes/functions.php:81
+msgid "Enable Logging"
+msgstr ""
+
+#: includes/functions.php:82
+msgid "Enable or disable logging of ChatGPT conversations."
+msgstr ""
+
+#: includes/functions.php:95
+msgid "gpt-4"
+msgstr ""
+
+#: includes/functions.php:96
+msgid "gpt-4-0314"
+msgstr ""
+
+#: includes/functions.php:97
+msgid "gpt-4-32k"
+msgstr ""
+
+#: includes/functions.php:98
+msgid "gpt-4-32k-0314"
+msgstr ""
+
+#: includes/functions.php:99
+msgid "gpt-3.5-turbo"
+msgstr ""
+
+#: includes/functions.php:100
+msgid "gpt-3.5-turbo-0301"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WriteBuddy AI – ChatGPT-Powered Writing Assistant for WordPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://writebuddyai.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WriteBuddy AI is a WordPress plugin that generates high-quality content and "
+"images using ChatGPT and OpenAI technology. It's a chat-based writing "
+"assistant that saves you time and boosts your productivity."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bengal Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://bengal-studio.com/"
+msgstr ""

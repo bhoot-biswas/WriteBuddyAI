@@ -1,0 +1,100 @@
+.chatbox {
+    position: fixed;
+    right: 40px;
+    bottom: 120px;
+    width: 400px;
+    height: calc(85% - 100px);
+    height: calc(85vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 50000;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background: white;
+
+    &__opener {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        border-radius: 50%;
+        z-index: 1000;
+        background-color: #0785f2;
+        color: #fff;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 2px 2px 19px 1px rgba(0, 0, 0, 0.1);
+
+        svg {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.contact {
+    position: relative;
+    margin-bottom: 1rem;
+    padding-left: 64px;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 3.5rem;
+    flex-shrink: 0;
+    margin: 1rem;
+    box-sizing: border-box;
+
+    .pic {
+        position: absolute;
+        left: 0;
+    }
+
+    .name {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 0.125rem;
+    }
+
+    .seen {
+        font-size: 12px;
+        color: #999;
+    }
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #F7F7F7;
+
+    svg {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@keyframes typing {
+
+    0%,
+    75%,
+    100% {
+        transform: translate(0, 0.25rem) scale(0.9);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translate(0, -0.25rem) scale(1);
+        opacity: 1;
+    }
+}
